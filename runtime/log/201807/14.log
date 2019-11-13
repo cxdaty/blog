@@ -1,0 +1,1310 @@
+[ 2018-07-14T23:00:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] dev.tp111.com/admin [运行时间：1.823104s][吞吐率：0.55req/s] [内存消耗：2,083.23kb] [文件加载：44]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/admin' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-14T23:00:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ log ] dev.tp111.com/admin/login/index.html [运行时间：0.351020s][吞吐率：2.85req/s] [内存消耗：2,098.84kb] [文件加载：45]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/index_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\tp55\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] admin_themes\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-14T23:00:58+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] dev.tp111.com/favicon.ico [运行时间：0.188011s][吞吐率：5.32req/s] [内存消耗：1,621.87kb] [文件加载：38]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:09+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login.html
+[ log ] dev.tp111.com/admin/login/login.html [运行时间：0.433025s][吞吐率：2.31req/s] [内存消耗：2,872.84kb] [文件加载：53]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://dev.tp111.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://dev.tp111.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jnb2093rfsqjf8sl591lusmaj0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/login_html' => '',
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\tp55\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051003s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.201011s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`status` FROM `think_admin_user` WHERE  `username` = 'admin'  AND `password` = 'b63ddacba6c3835cc1b250c5d9de6ac1' LIMIT 1 [ RunTime:0.056003s ]
+[ sql ] [ SQL ] UPDATE `think_admin_user`  SET `last_login_time`='2018-07-14 23:01:09',`last_login_ip`='127.0.0.1'  WHERE  `id` = 1 [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] dev.tp111.com/admin/index/index.html [运行时间：0.582033s][吞吐率：1.72req/s] [内存消耗：2,980.48kb] [文件加载：52]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\tp55\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] admin_themes\index\index.html [ array (
+  0 => 'menu',
+  1 => 'site_config',
+  2 => 'controller',
+  3 => 'new_ver',
+  4 => 'approvedarticle_number',
+  5 => 'notauditarticle_number',
+  6 => 'links_number',
+  7 => 'tell_number',
+  8 => 'guestbook_number',
+  9 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.054003s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  desc,`id`  asc [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `think_auth_group_access` `AuthGroupAccess` LEFT JOIN `think_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.073004s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `think_auth_rule` WHERE  `id` IN (1,2,3,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,56,57,58,59,60,61,62)  AND `type` = 1 [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_system` [ RunTime:0.066004s ]
+[ sql ] [ SQL ] SELECT `value` FROM `think_system` WHERE  `name` = 'site_config' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT VERSION() AS ver [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `think_article` WHERE  (  status=1 ) [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `think_article` WHERE  (  status=0 ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_links` [ RunTime:0.043002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `think_links` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_tell` [ RunTime:0.032001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `think_tell` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_guestbook` [ RunTime:0.068003s ]
+[ sql ] [ SQL ] SELECT `id` FROM `think_guestbook` [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html
+[ log ] dev.tp111.com/admin/article/index.html [运行时间：0.348020s][吞吐率：2.87req/s] [内存消耗：3,458.62kb] [文件加载：60]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\tp55\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] admin_themes\article\index.html [ array (
+  0 => 'menu',
+  1 => 'site_config',
+  2 => 'controller',
+  3 => 'category_level_list',
+  4 => 'article_list',
+  5 => 'category_list',
+  6 => 'cid',
+  7 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `think_auth_group_access` `AuthGroupAccess` LEFT JOIN `think_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `think_auth_rule` WHERE  `id` IN (1,2,3,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,56,57,58,59,60,61,62)  AND `type` = 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  desc,`id`  asc [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_system` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `value` FROM `think_system` WHERE  `name` = 'site_config' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_category` [ RunTime:0.077005s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` ORDER BY id desc LIMIT 0,4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `think_category` [ RunTime:0.002001s ]
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?/admin/article/index_html=&page=2
+[ log ] dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=2 [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：3,458.98kb] [文件加载：60]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/article/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jnb2093rfsqjf8sl591lusmaj0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\tp55\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] admin_themes\article\index.html [ array (
+  0 => 'menu',
+  1 => 'site_config',
+  2 => 'controller',
+  3 => 'category_level_list',
+  4 => 'article_list',
+  5 => 'category_list',
+  6 => 'cid',
+  7 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `think_auth_group_access` `AuthGroupAccess` LEFT JOIN `think_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `think_auth_rule` WHERE  `id` IN (1,2,3,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,56,57,58,59,60,61,62)  AND `type` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  desc,`id`  asc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_system` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `value` FROM `think_system` WHERE  `name` = 'site_config' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` ORDER BY id desc LIMIT 4,4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `think_category` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?/admin/article/index_html=&page=3
+[ log ] dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=3 [运行时间：0.160009s][吞吐率：6.25req/s] [内存消耗：3,463.23kb] [文件加载：60]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jnb2093rfsqjf8sl591lusmaj0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\tp55\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] admin_themes\article\index.html [ array (
+  0 => 'menu',
+  1 => 'site_config',
+  2 => 'controller',
+  3 => 'category_level_list',
+  4 => 'article_list',
+  5 => 'category_list',
+  6 => 'cid',
+  7 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004001s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `think_auth_group_access` `AuthGroupAccess` LEFT JOIN `think_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `think_auth_rule` WHERE  `id` IN (1,2,3,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,56,57,58,59,60,61,62)  AND `type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  desc,`id`  asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_system` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `value` FROM `think_system` WHERE  `name` = 'site_config' LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_category` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` ORDER BY id desc LIMIT 8,4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `think_category` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?/admin/article/index_html=&page=4
+[ log ] dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=4 [运行时间：0.098006s][吞吐率：10.20req/s] [内存消耗：3,459.16kb] [文件加载：60]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jnb2093rfsqjf8sl591lusmaj0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '4',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\tp55\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] admin_themes\article\index.html [ array (
+  0 => 'menu',
+  1 => 'site_config',
+  2 => 'controller',
+  3 => 'category_level_list',
+  4 => 'article_list',
+  5 => 'category_list',
+  6 => 'cid',
+  7 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `think_auth_group_access` `AuthGroupAccess` LEFT JOIN `think_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `think_auth_rule` WHERE  `id` IN (1,2,3,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,56,57,58,59,60,61,62)  AND `type` = 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  desc,`id`  asc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_system` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `value` FROM `think_system` WHERE  `name` = 'site_config' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` ORDER BY id desc LIMIT 12,4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `think_category` [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?/admin/article/index_html=&page=5
+[ log ] dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=5 [运行时间：0.110006s][吞吐率：9.09req/s] [内存消耗：3,459.17kb] [文件加载：60]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jnb2093rfsqjf8sl591lusmaj0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\tp55\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] admin_themes\article\index.html [ array (
+  0 => 'menu',
+  1 => 'site_config',
+  2 => 'controller',
+  3 => 'category_level_list',
+  4 => 'article_list',
+  5 => 'category_list',
+  6 => 'cid',
+  7 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `think_auth_group_access` `AuthGroupAccess` LEFT JOIN `think_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `think_auth_rule` WHERE  `id` IN (1,2,3,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,56,57,58,59,60,61,62)  AND `type` = 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  desc,`id`  asc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_system` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `value` FROM `think_system` WHERE  `name` = 'site_config' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` ORDER BY id desc LIMIT 16,4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `think_category` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?/admin/article/index_html=&page=6
+[ log ] dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=6 [运行时间：0.094006s][吞吐率：10.64req/s] [内存消耗：3,452.62kb] [文件加载：60]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jnb2093rfsqjf8sl591lusmaj0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\tp55\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] admin_themes\article\index.html [ array (
+  0 => 'menu',
+  1 => 'site_config',
+  2 => 'controller',
+  3 => 'category_level_list',
+  4 => 'article_list',
+  5 => 'category_list',
+  6 => 'cid',
+  7 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `think_auth_group_access` `AuthGroupAccess` LEFT JOIN `think_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `think_auth_rule` WHERE  `id` IN (1,2,3,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,56,57,58,59,60,61,62)  AND `type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  desc,`id`  asc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_system` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `value` FROM `think_system` WHERE  `name` = 'site_config' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` ORDER BY id desc LIMIT 20,4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `think_category` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:35+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] dev.tp111.com/ [运行时间：0.331019s][吞吐率：3.02req/s] [内存消耗：3,471.13kb] [文件加载：60]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\tp55\application\index\controller\Index.php ]
+[ info ] [ VIEW ] themes\index\index.html [ array (
+  0 => 'site_config',
+  1 => 'banner',
+  2 => 'category',
+  3 => 'links',
+  4 => 'tags',
+  5 => 'randarticle',
+  6 => 'htorticle',
+  7 => 'messageinfo',
+  8 => 'nav',
+  9 => 'currenturl',
+  10 => 'toparticle',
+  11 => 'category_level_list',
+  12 => 'article_list',
+  13 => 'getcategoryName',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_system` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `value` FROM `think_system` WHERE  `name` = 'site_config' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_advertising` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT * FROM `think_advertising` WHERE  `status` = 1 ORDER BY sort asc [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` WHERE  `type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_links` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_links` WHERE  `status` = 1 LIMIT 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_tags` [ RunTime:0.042003s ]
+[ sql ] [ SQL ] SELECT * FROM `think_tags` ORDER BY num desc LIMIT 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`introduction`,`thumb` FROM `think_article` WHERE  `status` = 1 ORDER BY rand() LIMIT 3 [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`introduction`,`thumb` FROM `think_article` WHERE  `status` = 1 ORDER BY reading desc LIMIT 10 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`introduction`,`keywords`,`tag`,`is_top`,`is_good`,`photo`,`thumb`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` WHERE  `status` = 1  AND `is_top` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_guestbook` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_guestbook` WHERE  `status` = 1 LIMIT 4 [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_nav` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] SELECT * FROM `think_nav` WHERE  `status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`introduction`,`tag`,`is_good`,`thumb`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `think_category` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:35+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180609/d2590498186fad4003064df2fabe8dba.jpg
+[ log ] dev.tp111.com/public/uploads/20180609/d2590498186fad4003064df2fabe8dba.jpg [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,622.13kb] [文件加载：38]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180609',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180609/d2590498186fad4003064df2fabe8dba_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:35+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180609/68ef2cf4f1b6219ed64f3cc1fd49c3f0.jpg
+[ log ] dev.tp111.com/public/uploads/20180609/68ef2cf4f1b6219ed64f3cc1fd49c3f0.jpg [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,622.09kb] [文件加载：38]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180609',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180609/68ef2cf4f1b6219ed64f3cc1fd49c3f0_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:35+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180609/414a38b733ba65a1ef1954417d386fc0.jpg
+[ log ] dev.tp111.com/public/uploads/20180609/414a38b733ba65a1ef1954417d386fc0.jpg [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,622.13kb] [文件加载：38]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180609',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180609/414a38b733ba65a1ef1954417d386fc0_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:35+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180609/dff68e889e556d4553279b5e5aec72a6.jpg
+[ log ] dev.tp111.com/public/uploads/20180609/dff68e889e556d4553279b5e5aec72a6.jpg [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：1,622.13kb] [文件加载：38]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180609',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180609/dff68e889e556d4553279b5e5aec72a6_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /category/2.html
+[ log ] dev.tp111.com/category/2.html [运行时间：0.198011s][吞吐率：5.05req/s] [内存消耗：3,677.02kb] [文件加载：62]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'category',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/category/2_html' => '',
+  'cid' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Category->index[ E:\tp55\application\index\controller\Category.php ]
+[ info ] [ VIEW ] themes\category\index.html [ array (
+  0 => 'site_config',
+  1 => 'banner',
+  2 => 'category',
+  3 => 'links',
+  4 => 'tags',
+  5 => 'randarticle',
+  6 => 'htorticle',
+  7 => 'messageinfo',
+  8 => 'nav',
+  9 => 'currenturl',
+  10 => 'toparticle',
+  11 => 'article_list',
+  12 => 'getcategoryName',
+  13 => 'getcategory',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_system` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `value` FROM `think_system` WHERE  `name` = 'site_config' LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_advertising` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_advertising` WHERE  `status` = 1 ORDER BY sort asc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` WHERE  `type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_links` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_links` WHERE  `status` = 1 LIMIT 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_tags` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_tags` ORDER BY num desc LIMIT 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`introduction`,`thumb` FROM `think_article` WHERE  `status` = 1 ORDER BY rand() LIMIT 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`introduction`,`thumb` FROM `think_article` WHERE  `status` = 1 ORDER BY reading desc LIMIT 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`introduction`,`keywords`,`tag`,`is_top`,`is_good`,`photo`,`thumb`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` WHERE  `status` = 1  AND `is_top` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_guestbook` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_guestbook` WHERE  `status` = 1 LIMIT 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_nav` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_nav` WHERE  `status` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` WHERE  `cid` = 2  AND `status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`introduction`,`tag`,`is_good`,`thumb`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` WHERE  `cid` = 2  AND `status` = 1 ORDER BY id desc LIMIT 0,5 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `think_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180609/414a38b733ba65a1ef1954417d386fc0.jpg
+[ log ] dev.tp111.com/public/uploads/20180609/414a38b733ba65a1ef1954417d386fc0.jpg [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,622.27kb] [文件加载：38]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180609',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/category/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180609/414a38b733ba65a1ef1954417d386fc0_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180609/353ebd1b5427e100edfdfbd330e132b1.jpg
+[ log ] dev.tp111.com/public/uploads/20180609/353ebd1b5427e100edfdfbd330e132b1.jpg [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,622.27kb] [文件加载：38]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180609',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/category/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180609/353ebd1b5427e100edfdfbd330e132b1_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180609/8e5b3a45b35b192040cc1a1908690789.jpg
+[ log ] dev.tp111.com/public/uploads/20180609/8e5b3a45b35b192040cc1a1908690789.jpg [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：1,622.27kb] [文件加载：38]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180609',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/category/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180609/8e5b3a45b35b192040cc1a1908690789_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180609/bc15a2372f8d47e4570f01d517b88745.jpg
+[ log ] dev.tp111.com/public/uploads/20180609/bc15a2372f8d47e4570f01d517b88745.jpg [运行时间：0.089006s][吞吐率：11.24req/s] [内存消耗：1,622.27kb] [文件加载：38]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180609',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/category/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180609/bc15a2372f8d47e4570f01d517b88745_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:43+08:00 ] 127.0.0.1 127.0.0.1 GET /public/uploads/20180609/819db26088b2b36d917456125e5f7a53.jpg
+[ log ] dev.tp111.com/public/uploads/20180609/819db26088b2b36d917456125e5f7a53.jpg [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：1,622.27kb] [文件加载：38]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '20180609',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/category/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=jnb2093rfsqjf8sl591lusmaj0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/public/uploads/20180609/819db26088b2b36d917456125e5f7a53_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?/admin/article/index_html=&page=5
+[ log ] dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=5 [运行时间：0.087004s][吞吐率：11.49req/s] [内存消耗：3,463.20kb] [文件加载：60]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jnb2093rfsqjf8sl591lusmaj0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\tp55\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] admin_themes\article\index.html [ array (
+  0 => 'menu',
+  1 => 'site_config',
+  2 => 'controller',
+  3 => 'category_level_list',
+  4 => 'article_list',
+  5 => 'category_list',
+  6 => 'cid',
+  7 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `think_auth_group_access` `AuthGroupAccess` LEFT JOIN `think_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `think_auth_rule` WHERE  `id` IN (1,2,3,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,56,57,58,59,60,61,62)  AND `type` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  desc,`id`  asc [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_system` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `value` FROM `think_system` WHERE  `name` = 'site_config' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` ORDER BY id desc LIMIT 16,4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `think_category` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?/admin/article/index_html=&page=4
+[ log ] dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=4 [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：3,459.19kb] [文件加载：60]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jnb2093rfsqjf8sl591lusmaj0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '4',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\tp55\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] admin_themes\article\index.html [ array (
+  0 => 'menu',
+  1 => 'site_config',
+  2 => 'controller',
+  3 => 'category_level_list',
+  4 => 'article_list',
+  5 => 'category_list',
+  6 => 'cid',
+  7 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `think_auth_group_access` `AuthGroupAccess` LEFT JOIN `think_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `think_auth_rule` WHERE  `id` IN (1,2,3,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,56,57,58,59,60,61,62)  AND `type` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  desc,`id`  asc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_system` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `value` FROM `think_system` WHERE  `name` = 'site_config' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` ORDER BY id desc LIMIT 12,4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `think_category` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?/admin/article/index_html=&page=3
+[ log ] dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=3 [运行时间：0.084005s][吞吐率：11.90req/s] [内存消耗：3,463.26kb] [文件加载：60]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jnb2093rfsqjf8sl591lusmaj0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\tp55\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] admin_themes\article\index.html [ array (
+  0 => 'menu',
+  1 => 'site_config',
+  2 => 'controller',
+  3 => 'category_level_list',
+  4 => 'article_list',
+  5 => 'category_list',
+  6 => 'cid',
+  7 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `think_auth_group_access` `AuthGroupAccess` LEFT JOIN `think_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `think_auth_rule` WHERE  `id` IN (1,2,3,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,56,57,58,59,60,61,62)  AND `type` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  desc,`id`  asc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_system` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `value` FROM `think_system` WHERE  `name` = 'site_config' LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` ORDER BY id desc LIMIT 8,4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `think_category` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?/admin/article/index_html=&page=2
+[ log ] dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=2 [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：3,459.16kb] [文件加载：60]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jnb2093rfsqjf8sl591lusmaj0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\tp55\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] admin_themes\article\index.html [ array (
+  0 => 'menu',
+  1 => 'site_config',
+  2 => 'controller',
+  3 => 'category_level_list',
+  4 => 'article_list',
+  5 => 'category_list',
+  6 => 'cid',
+  7 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `think_auth_group_access` `AuthGroupAccess` LEFT JOIN `think_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `think_auth_rule` WHERE  `id` IN (1,2,3,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,56,57,58,59,60,61,62)  AND `type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  desc,`id`  asc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_system` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `value` FROM `think_system` WHERE  `name` = 'site_config' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` ORDER BY id desc LIMIT 4,4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `think_category` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-14T23:01:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index.html?/admin/article/index_html=&page=1
+[ log ] dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=1 [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：3,463.27kb] [文件加载：60]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/article/index.html?/admin/article/index_html=&page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jnb2093rfsqjf8sl591lusmaj0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/article/index_html' => '',
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\tp55\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] admin_themes\article\index.html [ array (
+  0 => 'menu',
+  1 => 'site_config',
+  2 => 'controller',
+  3 => 'category_level_list',
+  4 => 'article_list',
+  5 => 'category_list',
+  6 => 'cid',
+  7 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `think_auth_group_access` `AuthGroupAccess` LEFT JOIN `think_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `think_auth_rule` WHERE  `id` IN (1,2,3,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,56,57,58,59,60,61,62)  AND `type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  desc,`id`  asc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_system` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `value` FROM `think_system` WHERE  `name` = 'site_config' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_category` ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`cid`,`author`,`reading`,`status`,`publish_time`,`sort` FROM `think_article` ORDER BY id desc LIMIT 0,4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `think_category` [ RunTime:0.001001s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,4 @@
+1、上传文件到服务器后解压
+2、使用数据库工具导入tttis_com.sql数据库
+3、修改application\database.php中的数据库信息为自己的数据库配置
+4、后台登录地址：域名/admin 账号 admin  密码 admin

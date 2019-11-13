@@ -1,0 +1,105 @@
+[ 2019-08-04T20:12:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ log ] dev.tp111.com/admin/login/index.html [运行时间：2.428738s][吞吐率：0.41req/s] [内存消耗：2,112.26kb] [文件加载：45]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/index_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\tp55\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] admin_themes\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-08-04T20:12:16+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] dev.tp111.com/favicon.ico [运行时间：0.115007s][吞吐率：8.70req/s] [内存消耗：1,634.50kb] [文件加载：38]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://dev.tp111.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2019-08-04T20:12:24+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login.html
+[ log ] dev.tp111.com/admin/login/login.html [运行时间：0.620824s][吞吐率：1.61req/s] [内存消耗：2,888.90kb] [文件加载：53]
+[ info ] [ LANG ] E:\tp55\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'dev.tp111.com',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://dev.tp111.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://dev.tp111.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/login_html' => '',
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ E:\tp55\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:dbname=test;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`status` FROM `think_admin_user` WHERE  `username` = 'admin'  AND `password` = 'b63ddacba6c3835cc1b250c5d9de6ac1' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `think_admin_user`  SET `last_login_time`='2019-08-04 20:12:24',`last_login_ip`='127.0.0.1'  WHERE  `id` = 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
